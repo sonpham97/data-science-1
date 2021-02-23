@@ -1,0 +1,46 @@
+Input variables:
+
+   # patient demographic data:
+
+   1 - sex
+
+   2 - age
+
+   2 - education: highest educational qualification 
+                  (4 levels: "PRIMARY/NO EDUCATION", "VOCATIONAL/GRAMMAR", "SECONDARY", "POST-SECONDARY OR HIGHER")
+
+   3 - employment: current socio-economic status 
+                   (9 levels: "EMPLOYED IN PRIVATE SECTOR", "EMPLOYED IN PUBLIC SECTOR", "SELF-EMPLOYED", "FARMER", 
+			     "LONG-TERM SICK/DISABLED", "RETIRED", "PUPIL OR STUDENT", "UNEMPLOYED", "OTHER ECONOMICALLY INACTIVE")
+
+   4 - marital status (6 levels: "SINGLE", "MARRIED", "WIDOWED", "DIVORCED", "LEGALLY SEPARATED", "DE FACTO SEPARATED")
+
+   5 - unempdur (numeric): Total duration of unemployment in the last 2 years (in months)
+
+   6 - income (numeric): Personal monthly net income
+
+   7 - abroad (binary: "yes","no"): Working abroad during a monitoring period
+
+   8 - depress (numeric): Depression symptoms indicator
+
+   9 - trust: view on interpersonal trust 
+	      (3 levels: "MOST PEOPLE CAN BE TRUSTED", "ONE CAN`T BE TOO CAREFUL", "IT`S DIFFICULT TO TELL" )
+
+  10 - sport (binary: "yes","no"): Active engagement in some form of sport or exercise
+
+  11 - smoke (binary: "yes","no"): Smoking cigarettes
+
+  12 - weight (numeric)
+
+  13 - bmi (numeric): Body mass index
+
+
+  # Set of polygraphic measurements 
+
+  M1 - M9 (numeric): measurements taken during the last visit (scaled)
+
+
+
+Output variable (desired target):
+
+  17 - y - true need for clinical test (binary: "yes","no")}
